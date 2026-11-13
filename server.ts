@@ -3,13 +3,12 @@ import path from 'node:path';
 import express from 'express';
 import dotenv from 'dotenv';
 import { WebSocketServer, WebSocket } from 'ws';
-import { createServer as createViteServer } from 'vite';
 import { createApiRouter } from './src/server/routes.ts';
 import { mqBroker } from './src/server/broker.ts';
 
 dotenv.config();
 
-const MAIN_PORT = Number(process.env.ALERTNET_PORT || 3000);
+const MAIN_PORT = Number(process.env.PORT || process.env.ALERTNET_PORT || 3000);
 const WORKER_PORTS = [
   { id: 'instance-1', port: 3101 },
   { id: 'instance-2', port: 3102 },
@@ -100,6 +99,7 @@ async function bootstrap() {
   gatewayApp.use('/api', createApiRouter('instance-1', broadcastWs));
 
   if (process.env.NODE_ENV !== 'production') {
+    const { createServer: createViteServer } = await import('vite');
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: 'spa',
