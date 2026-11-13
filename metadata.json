@@ -1,0 +1,6 @@
+{
+  "name": "AlertNet – AI Flood Response, Citizen SOS & Smart Agriculture",
+  "description": "Real-time disaster management control dashboard for flood warnings, emergency SOS coordination, community alerts, and AI-powered smart agriculture.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

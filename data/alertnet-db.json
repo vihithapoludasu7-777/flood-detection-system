@@ -1,0 +1,1220 @@
+{
+  "users": [
+    {
+      "id": "usr-citizen-1",
+      "fullName": "Ananya Reddy",
+      "email": "citizen@alertnet.in",
+      "mobile": "+91 98480 11223",
+      "passwordHash": "$2b$08$QF8YyPHEf8AP/N2Ubj009u499gfvpbKIDkX62JhnkHSEfNUhvwchy",
+      "role": "citizen",
+      "state": "Telangana",
+      "district": "Medchal-Malkajgiri",
+      "locality": "Kukatpally",
+      "registeredLat": 17.4849,
+      "registeredLng": 78.4138,
+      "locationPermissionGranted": true,
+      "notificationPrefs": {
+        "email": true,
+        "sms": true,
+        "push": true,
+        "minSeverity": "HIGH",
+        "agriculturalFloodAlerts": false
+      },
+      "createdAt": "2026-11-13T05:20:20.881Z"
+    },
+    {
+      "id": "usr-farmer-1",
+      "fullName": "Ramesh Naik",
+      "email": "farmer@alertnet.in",
+      "mobile": "+91 98491 44556",
+      "passwordHash": "$2b$08$QF8YyPHEf8AP/N2Ubj009u499gfvpbKIDkX62JhnkHSEfNUhvwchy",
+      "role": "farmer",
+      "state": "Telangana",
+      "district": "Rangareddy",
+      "locality": "Miyapur",
+      "registeredLat": 17.4968,
+      "registeredLng": 78.3614,
+      "locationPermissionGranted": true,
+      "notificationPrefs": {
+        "email": true,
+        "sms": true,
+        "push": true,
+        "minSeverity": "MODERATE",
+        "agriculturalFloodAlerts": true
+      },
+      "createdAt": "2026-11-13T05:20:20.881Z"
+    },
+    {
+      "id": "usr-rescue-1",
+      "fullName": "Capt. Vikram Rao (NDRF Unit-04)",
+      "email": "rescue@alertnet.in",
+      "mobile": "+91 90001 77889",
+      "passwordHash": "$2b$08$QF8YyPHEf8AP/N2Ubj009u499gfvpbKIDkX62JhnkHSEfNUhvwchy",
+      "role": "rescue",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "locality": "Kukatpally",
+      "registeredLat": 17.4882,
+      "registeredLng": 78.4045,
+      "locationPermissionGranted": true,
+      "notificationPrefs": {
+        "email": true,
+        "sms": true,
+        "push": true,
+        "minSeverity": "MODERATE",
+        "agriculturalFloodAlerts": false
+      },
+      "createdAt": "2026-11-13T05:20:20.881Z"
+    },
+    {
+      "id": "usr-admin-1",
+      "fullName": "Dr. Kavitha Sharma (SDMA Control)",
+      "email": "admin@alertnet.in",
+      "mobile": "+91 94400 99001",
+      "passwordHash": "$2b$08$QF8YyPHEf8AP/N2Ubj009u499gfvpbKIDkX62JhnkHSEfNUhvwchy",
+      "role": "admin",
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "locality": "Hyderabad Central",
+      "registeredLat": 17.4239,
+      "registeredLng": 78.4738,
+      "locationPermissionGranted": true,
+      "notificationPrefs": {
+        "email": true,
+        "sms": true,
+        "push": true,
+        "minSeverity": "MODERATE",
+        "agriculturalFloodAlerts": false
+      },
+      "createdAt": "2026-11-13T05:20:20.881Z"
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc-kukatpally",
+      "name": "Kukatpally",
+      "district": "Medchal-Malkajgiri",
+      "state": "Telangana",
+      "lat": 17.4849,
+      "lng": 78.4138,
+      "radiusMeters": 3500,
+      "riskScore": 88,
+      "riskLevel": "CRITICAL",
+      "rainfallIntensityMmHr": 46.5,
+      "historicalRainfall24hMm": 142,
+      "temperatureC": 25.4,
+      "humidityPct": 94,
+      "windSpeedKmh": 28,
+      "waterLevelM": 4.35,
+      "dangerWaterLevelM": 4,
+      "soilMoisturePct": 91,
+      "drainageCapacityPct": 28,
+      "historicalFloodCount": 7,
+      "alertTitle": "CRITICAL FLOOD WARNING – KUKATPALLY",
+      "alertMessage": "Heavy rainfall detected (46.5 mm/hr). Kukatpally Nala water levels exceeded 4.0m danger mark. Avoid low-lying areas and move to safer ground.",
+      "safetyRecommendations": [
+        "Move immediately to upper floors or JNTU Safe Relief Camp.",
+        "Do not walk or drive across Kukatpally Y-Junction or submerged underpasses.",
+        "Switch off main electrical breakers if water approaches ground-floor outlets.",
+        "Keep emergency kit, medicines, drinking water, and charged power bank ready."
+      ],
+      "lastUpdated": "2026-11-13T05:20:20.881Z",
+      "dataSource": "simulated_sensor_network",
+      "forecast24h": [
+        {
+          "time": "Now",
+          "tempC": 24.9,
+          "rainfallMm": 53.5,
+          "humidityPct": 96,
+          "windKmh": 38,
+          "condition": "Heavy Downpour"
+        },
+        {
+          "time": "+3h",
+          "tempC": 23.9,
+          "rainfallMm": 48.8,
+          "humidityPct": 96,
+          "windKmh": 36,
+          "condition": "Heavy Downpour"
+        },
+        {
+          "time": "+6h",
+          "tempC": 23.9,
+          "rainfallMm": 44.2,
+          "humidityPct": 96,
+          "windKmh": 34,
+          "condition": "Heavy Downpour"
+        },
+        {
+          "time": "+9h",
+          "tempC": 24.9,
+          "rainfallMm": 39.5,
+          "humidityPct": 96,
+          "windKmh": 32,
+          "condition": "Heavy Downpour"
+        },
+        {
+          "time": "+12h",
+          "tempC": 23.9,
+          "rainfallMm": 31.6,
+          "humidityPct": 93,
+          "windKmh": 28,
+          "condition": "Heavy Downpour"
+        },
+        {
+          "time": "+15h",
+          "tempC": 23.9,
+          "rainfallMm": 26,
+          "humidityPct": 90,
+          "windKmh": 26,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+18h",
+          "tempC": 24.9,
+          "rainfallMm": 20.5,
+          "humidityPct": 86,
+          "windKmh": 23,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+21h",
+          "tempC": 25.4,
+          "rainfallMm": 14.9,
+          "humidityPct": 83,
+          "windKmh": 21,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+24h",
+          "tempC": 25.4,
+          "rainfallMm": 9.3,
+          "humidityPct": 80,
+          "windKmh": 18,
+          "condition": "Light Showers"
+        }
+      ],
+      "predictions": [
+        {
+          "horizonHours": 1,
+          "expectedSeverity": "CRITICAL",
+          "riskPercentage": 91,
+          "confidencePercentage": 92,
+          "predictedWaterRiseCm": 28,
+          "estimatedWindow": "Next 60 mins",
+          "reasons": [
+            "Sustained 46.5 mm/hr cloudburst over Kukatpally catchment",
+            "Stormwater drainage operating at 28% effective capacity",
+            "Nala water level already +0.35m above danger mark"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 3,
+          "expectedSeverity": "CRITICAL",
+          "riskPercentage": 86,
+          "confidencePercentage": 88,
+          "predictedWaterRiseCm": 42,
+          "estimatedWindow": "1–3 hours",
+          "reasons": [
+            "Upstream inflow from Miyapur lake spillway",
+            "Soil saturation at 91% preventing ground absorption"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 6,
+          "expectedSeverity": "HIGH",
+          "riskPercentage": 74,
+          "confidencePercentage": 82,
+          "predictedWaterRiseCm": 18,
+          "estimatedWindow": "3–6 hours",
+          "reasons": [
+            "Rain cell gradually drifting southeast toward Musi basin",
+            "Recession delayed by clogged secondary culverts"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 24,
+          "expectedSeverity": "MODERATE",
+          "riskPercentage": 48,
+          "confidencePercentage": 75,
+          "predictedWaterRiseCm": -35,
+          "estimatedWindow": "6–24 hours",
+          "reasons": [
+            "Forecast rainfall intensity drops below 10 mm/hr after +12h",
+            "GHMC pumping teams clearing primary trunk drains"
+          ],
+          "dataSource": "simulated_sensor_network"
+        }
+      ]
+    },
+    {
+      "id": "loc-miyapur",
+      "name": "Miyapur",
+      "district": "Rangareddy",
+      "state": "Telangana",
+      "lat": 17.4968,
+      "lng": 78.3614,
+      "radiusMeters": 3200,
+      "riskScore": 73,
+      "riskLevel": "HIGH",
+      "rainfallIntensityMmHr": 32,
+      "historicalRainfall24hMm": 108,
+      "temperatureC": 26.1,
+      "humidityPct": 89,
+      "windSpeedKmh": 24,
+      "waterLevelM": 3.65,
+      "dangerWaterLevelM": 3.8,
+      "soilMoisturePct": 86,
+      "drainageCapacityPct": 44,
+      "historicalFloodCount": 4,
+      "alertTitle": "HIGH FLOOD ALERT – MIYAPUR",
+      "alertMessage": "Rapid water rise near Miyapur Lake and Bollaram Road. Farmers advised to protect stored seed stock and clear field drainage bunds.",
+      "safetyRecommendations": [
+        "Avoid NH-65 low-lying service lanes near Miyapur Metro.",
+        "Farmers: move harvested grain, seeds, and fertilizers to elevated dry platforms.",
+        "Monitor SMS and push alerts for possible spillway release."
+      ],
+      "lastUpdated": "2026-11-13T05:20:20.881Z",
+      "dataSource": "simulated_sensor_network",
+      "forecast24h": [
+        {
+          "time": "Now",
+          "tempC": 25.6,
+          "rainfallMm": 36.8,
+          "humidityPct": 96,
+          "windKmh": 31,
+          "condition": "Heavy Downpour"
+        },
+        {
+          "time": "+3h",
+          "tempC": 24.6,
+          "rainfallMm": 33.6,
+          "humidityPct": 94,
+          "windKmh": 29,
+          "condition": "Heavy Downpour"
+        },
+        {
+          "time": "+6h",
+          "tempC": 24.6,
+          "rainfallMm": 30.4,
+          "humidityPct": 92,
+          "windKmh": 28,
+          "condition": "Heavy Downpour"
+        },
+        {
+          "time": "+9h",
+          "tempC": 25.6,
+          "rainfallMm": 27.2,
+          "humidityPct": 90,
+          "windKmh": 26,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+12h",
+          "tempC": 24.6,
+          "rainfallMm": 21.8,
+          "humidityPct": 87,
+          "windKmh": 24,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+15h",
+          "tempC": 24.6,
+          "rainfallMm": 17.9,
+          "humidityPct": 85,
+          "windKmh": 22,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+18h",
+          "tempC": 27.1,
+          "rainfallMm": 14.1,
+          "humidityPct": 82,
+          "windKmh": 20,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+21h",
+          "tempC": 26.1,
+          "rainfallMm": 10.2,
+          "humidityPct": 80,
+          "windKmh": 19,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+24h",
+          "tempC": 26.1,
+          "rainfallMm": 6.4,
+          "humidityPct": 78,
+          "windKmh": 17,
+          "condition": "Light Showers"
+        }
+      ],
+      "predictions": [
+        {
+          "horizonHours": 1,
+          "expectedSeverity": "HIGH",
+          "riskPercentage": 76,
+          "confidencePercentage": 89,
+          "predictedWaterRiseCm": 19,
+          "estimatedWindow": "Next 60 mins",
+          "reasons": [
+            "Miyapur Lake approaching 95% FTL capacity",
+            "32 mm/hr active rainfall"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 3,
+          "expectedSeverity": "HIGH",
+          "riskPercentage": 79,
+          "confidencePercentage": 85,
+          "predictedWaterRiseCm": 26,
+          "estimatedWindow": "1–3 hours",
+          "reasons": [
+            "Potential lake weir overflow into low agricultural fields"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 6,
+          "expectedSeverity": "MODERATE",
+          "riskPercentage": 58,
+          "confidencePercentage": 80,
+          "predictedWaterRiseCm": 8,
+          "estimatedWindow": "3–6 hours",
+          "reasons": [
+            "Rain intensity easing to 15 mm/hr"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 24,
+          "expectedSeverity": "LOW",
+          "riskPercentage": 29,
+          "confidencePercentage": 74,
+          "predictedWaterRiseCm": -25,
+          "estimatedWindow": "6–24 hours",
+          "reasons": [
+            "Clearer skies projected overnight"
+          ],
+          "dataSource": "simulated_sensor_network"
+        }
+      ]
+    },
+    {
+      "id": "loc-begumpet",
+      "name": "Begumpet",
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "lat": 17.4447,
+      "lng": 78.4664,
+      "radiusMeters": 3000,
+      "riskScore": 54,
+      "riskLevel": "MODERATE",
+      "rainfallIntensityMmHr": 19.4,
+      "historicalRainfall24hMm": 74,
+      "temperatureC": 26.8,
+      "humidityPct": 84,
+      "windSpeedKmh": 19,
+      "waterLevelM": 2.9,
+      "dangerWaterLevelM": 3.6,
+      "soilMoisturePct": 75,
+      "drainageCapacityPct": 62,
+      "historicalFloodCount": 5,
+      "alertTitle": "MODERATE FLOOD WATCH – BEGUMPET",
+      "alertMessage": "Moderate waterlogging near Begumpet Nala and Prakash Nagar flyover ramps. Exercise caution during evening commute.",
+      "safetyRecommendations": [
+        "Use elevated flyover routes; avoid Prakash Nagar culvert.",
+        "Check vehicle drainage clearance and avoid standing water."
+      ],
+      "lastUpdated": "2026-11-13T05:20:20.881Z",
+      "dataSource": "simulated_sensor_network",
+      "forecast24h": [
+        {
+          "time": "Now",
+          "tempC": 26.3,
+          "rainfallMm": 22.3,
+          "humidityPct": 87,
+          "windKmh": 24,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+3h",
+          "tempC": 25.3,
+          "rainfallMm": 20.4,
+          "humidityPct": 86,
+          "windKmh": 23,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+6h",
+          "tempC": 25.3,
+          "rainfallMm": 18.4,
+          "humidityPct": 85,
+          "windKmh": 22,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+9h",
+          "tempC": 26.3,
+          "rainfallMm": 16.5,
+          "humidityPct": 84,
+          "windKmh": 21,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+12h",
+          "tempC": 26.8,
+          "rainfallMm": 13.2,
+          "humidityPct": 82,
+          "windKmh": 20,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+15h",
+          "tempC": 26.8,
+          "rainfallMm": 10.9,
+          "humidityPct": 81,
+          "windKmh": 19,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+18h",
+          "tempC": 27.8,
+          "rainfallMm": 8.5,
+          "humidityPct": 79,
+          "windKmh": 18,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+21h",
+          "tempC": 26.8,
+          "rainfallMm": 6.2,
+          "humidityPct": 78,
+          "windKmh": 17,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+24h",
+          "tempC": 26.8,
+          "rainfallMm": 3.9,
+          "humidityPct": 76,
+          "windKmh": 16,
+          "condition": "Light Showers"
+        }
+      ],
+      "predictions": [
+        {
+          "horizonHours": 1,
+          "expectedSeverity": "MODERATE",
+          "riskPercentage": 56,
+          "confidencePercentage": 86,
+          "predictedWaterRiseCm": 10,
+          "estimatedWindow": "Next 60 mins",
+          "reasons": [
+            "Steady 19.4 mm/hr rainfall",
+            "Hussain Sagar surplus inflow"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 3,
+          "expectedSeverity": "MODERATE",
+          "riskPercentage": 61,
+          "confidencePercentage": 82,
+          "predictedWaterRiseCm": 14,
+          "estimatedWindow": "1–3 hours",
+          "reasons": [
+            "Downstream runoff from Kukatpally corridor"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 6,
+          "expectedSeverity": "MODERATE",
+          "riskPercentage": 45,
+          "confidencePercentage": 78,
+          "predictedWaterRiseCm": 2,
+          "estimatedWindow": "3–6 hours",
+          "reasons": [
+            "Drainage holding steady at 62% capacity"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 24,
+          "expectedSeverity": "LOW",
+          "riskPercentage": 22,
+          "confidencePercentage": 76,
+          "predictedWaterRiseCm": -18,
+          "estimatedWindow": "6–24 hours",
+          "reasons": [
+            "Gradual drying trend over next 18 hours"
+          ],
+          "dataSource": "simulated_sensor_network"
+        }
+      ]
+    },
+    {
+      "id": "loc-gachibowli",
+      "name": "Gachibowli",
+      "district": "Rangareddy",
+      "state": "Telangana",
+      "lat": 17.4401,
+      "lng": 78.3489,
+      "radiusMeters": 3400,
+      "riskScore": 24,
+      "riskLevel": "LOW",
+      "rainfallIntensityMmHr": 6.2,
+      "historicalRainfall24hMm": 28,
+      "temperatureC": 27.6,
+      "humidityPct": 76,
+      "windSpeedKmh": 15,
+      "waterLevelM": 1.65,
+      "dangerWaterLevelM": 3.4,
+      "soilMoisturePct": 58,
+      "drainageCapacityPct": 86,
+      "historicalFloodCount": 1,
+      "alertTitle": "NORMAL CONDITIONS – GACHIBOWLI",
+      "alertMessage": "Light passing showers. Drainage and road corridors are currently clear and safe for travel.",
+      "safetyRecommendations": [
+        "Conditions safe; keep location alerts active if travelling toward Kukatpally.",
+        "Emergency shelters on standby for neighboring high-risk zones."
+      ],
+      "lastUpdated": "2026-11-13T05:20:20.881Z",
+      "dataSource": "simulated_sensor_network",
+      "forecast24h": [
+        {
+          "time": "Now",
+          "tempC": 28.6,
+          "rainfallMm": 7.1,
+          "humidityPct": 78,
+          "windKmh": 17,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+3h",
+          "tempC": 27.6,
+          "rainfallMm": 6.5,
+          "humidityPct": 78,
+          "windKmh": 17,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+6h",
+          "tempC": 27.6,
+          "rainfallMm": 5.9,
+          "humidityPct": 78,
+          "windKmh": 17,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+9h",
+          "tempC": 28.6,
+          "rainfallMm": 5.3,
+          "humidityPct": 77,
+          "windKmh": 16,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+12h",
+          "tempC": 27.6,
+          "rainfallMm": 4.2,
+          "humidityPct": 77,
+          "windKmh": 16,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+15h",
+          "tempC": 27.6,
+          "rainfallMm": 3.5,
+          "humidityPct": 76,
+          "windKmh": 16,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+18h",
+          "tempC": 28.6,
+          "rainfallMm": 2.7,
+          "humidityPct": 76,
+          "windKmh": 15,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+21h",
+          "tempC": 27.6,
+          "rainfallMm": 2,
+          "humidityPct": 75,
+          "windKmh": 15,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+24h",
+          "tempC": 27.6,
+          "rainfallMm": 1.2,
+          "humidityPct": 75,
+          "windKmh": 15,
+          "condition": "Overcast"
+        }
+      ],
+      "predictions": [
+        {
+          "horizonHours": 1,
+          "expectedSeverity": "LOW",
+          "riskPercentage": 24,
+          "confidencePercentage": 91,
+          "predictedWaterRiseCm": 3,
+          "estimatedWindow": "Next 60 mins",
+          "reasons": [
+            "Light rain (6.2 mm/hr) easily absorbed by 86% drainage capacity"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 3,
+          "expectedSeverity": "LOW",
+          "riskPercentage": 28,
+          "confidencePercentage": 87,
+          "predictedWaterRiseCm": 4,
+          "estimatedWindow": "1–3 hours",
+          "reasons": [
+            "Elevated terrain reduces water accumulation"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 6,
+          "expectedSeverity": "LOW",
+          "riskPercentage": 20,
+          "confidencePercentage": 84,
+          "predictedWaterRiseCm": 0,
+          "estimatedWindow": "3–6 hours",
+          "reasons": [
+            "Minimal upstream inflow"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 24,
+          "expectedSeverity": "LOW",
+          "riskPercentage": 14,
+          "confidencePercentage": 81,
+          "predictedWaterRiseCm": -8,
+          "estimatedWindow": "6–24 hours",
+          "reasons": [
+            "Dry weather expected tomorrow"
+          ],
+          "dataSource": "simulated_sensor_network"
+        }
+      ]
+    },
+    {
+      "id": "loc-lbnagar",
+      "name": "LB Nagar",
+      "district": "Rangareddy",
+      "state": "Telangana",
+      "lat": 17.3457,
+      "lng": 78.5522,
+      "radiusMeters": 3200,
+      "riskScore": 67,
+      "riskLevel": "HIGH",
+      "rainfallIntensityMmHr": 29.5,
+      "historicalRainfall24hMm": 98,
+      "temperatureC": 25.9,
+      "humidityPct": 90,
+      "windSpeedKmh": 22,
+      "waterLevelM": 3.55,
+      "dangerWaterLevelM": 3.7,
+      "soilMoisturePct": 84,
+      "drainageCapacityPct": 48,
+      "historicalFloodCount": 5,
+      "alertTitle": "HIGH FLOOD ALERT – LB NAGAR",
+      "alertMessage": "Musi downstream runoff rising rapidly. Avoid Saroornagar Tank bund roads and low residential basements.",
+      "safetyRecommendations": [
+        "Move vehicles out of basement parking in low-lying colonies.",
+        "Avoid Saroornagar Lake perimeter road."
+      ],
+      "lastUpdated": "2026-11-13T05:20:20.881Z",
+      "dataSource": "simulated_sensor_network",
+      "forecast24h": [
+        {
+          "time": "Now",
+          "tempC": 25.4,
+          "rainfallMm": 33.9,
+          "humidityPct": 94,
+          "windKmh": 29,
+          "condition": "Heavy Downpour"
+        },
+        {
+          "time": "+3h",
+          "tempC": 24.4,
+          "rainfallMm": 31,
+          "humidityPct": 93,
+          "windKmh": 28,
+          "condition": "Heavy Downpour"
+        },
+        {
+          "time": "+6h",
+          "tempC": 24.4,
+          "rainfallMm": 28,
+          "humidityPct": 91,
+          "windKmh": 27,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+9h",
+          "tempC": 25.4,
+          "rainfallMm": 25.1,
+          "humidityPct": 89,
+          "windKmh": 25,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+12h",
+          "tempC": 24.4,
+          "rainfallMm": 20.1,
+          "humidityPct": 86,
+          "windKmh": 23,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+15h",
+          "tempC": 24.4,
+          "rainfallMm": 16.5,
+          "humidityPct": 84,
+          "windKmh": 21,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+18h",
+          "tempC": 26.9,
+          "rainfallMm": 13,
+          "humidityPct": 82,
+          "windKmh": 20,
+          "condition": "Moderate Rain"
+        },
+        {
+          "time": "+21h",
+          "tempC": 25.9,
+          "rainfallMm": 9.4,
+          "humidityPct": 80,
+          "windKmh": 18,
+          "condition": "Light Showers"
+        },
+        {
+          "time": "+24h",
+          "tempC": 25.9,
+          "rainfallMm": 5.9,
+          "humidityPct": 78,
+          "windKmh": 17,
+          "condition": "Light Showers"
+        }
+      ],
+      "predictions": [
+        {
+          "horizonHours": 1,
+          "expectedSeverity": "HIGH",
+          "riskPercentage": 70,
+          "confidencePercentage": 88,
+          "predictedWaterRiseCm": 16,
+          "estimatedWindow": "Next 60 mins",
+          "reasons": [
+            "Saroornagar surplus discharge + 29.5 mm/hr rainfall"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 3,
+          "expectedSeverity": "HIGH",
+          "riskPercentage": 74,
+          "confidencePercentage": 84,
+          "predictedWaterRiseCm": 22,
+          "estimatedWindow": "1–3 hours",
+          "reasons": [
+            "Musi corridor convergence peak"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 6,
+          "expectedSeverity": "MODERATE",
+          "riskPercentage": 52,
+          "confidencePercentage": 79,
+          "predictedWaterRiseCm": 5,
+          "estimatedWindow": "3–6 hours",
+          "reasons": [
+            "Outflow pumps active"
+          ],
+          "dataSource": "simulated_sensor_network"
+        },
+        {
+          "horizonHours": 24,
+          "expectedSeverity": "LOW",
+          "riskPercentage": 25,
+          "confidencePercentage": 74,
+          "predictedWaterRiseCm": -20,
+          "estimatedWindow": "6–24 hours",
+          "reasons": [
+            "Storm cell clearing"
+          ],
+          "dataSource": "simulated_sensor_network"
+        }
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac-1",
+      "type": "shelter",
+      "name": "JNTU Hyderabad Safe Relief Shelter",
+      "locality": "Kukatpally",
+      "lat": 17.4933,
+      "lng": 78.3914,
+      "capacity": 450,
+      "availableBeds": 168,
+      "contact": "+91 40 2315 8661"
+    },
+    {
+      "id": "fac-2",
+      "type": "hospital",
+      "name": "Remedy Multi-Specialty Emergency Hospital",
+      "locality": "Kukatpally",
+      "lat": 17.4865,
+      "lng": 78.4071,
+      "capacity": 180,
+      "availableBeds": 34,
+      "contact": "+91 40 2305 1111"
+    },
+    {
+      "id": "fac-3",
+      "type": "rescue_station",
+      "name": "NDRF / GHMC DRF Forward Station KPHB",
+      "locality": "Kukatpally",
+      "lat": 17.4892,
+      "lng": 78.3995,
+      "contact": "1070 / 040-21111111"
+    },
+    {
+      "id": "fac-4",
+      "type": "relief_centre",
+      "name": "Miyapur Community Relief & Ration Depot",
+      "locality": "Miyapur",
+      "lat": 17.4981,
+      "lng": 78.3568,
+      "capacity": 300,
+      "availableBeds": 210,
+      "contact": "+91 40 2304 5522"
+    },
+    {
+      "id": "fac-5",
+      "type": "shelter",
+      "name": "Gachibowli Indoor Stadium Emergency Shelter",
+      "locality": "Gachibowli",
+      "lat": 17.4452,
+      "lng": 78.3471,
+      "capacity": 1200,
+      "availableBeds": 940,
+      "contact": "+91 40 2300 4410"
+    },
+    {
+      "id": "fac-6",
+      "type": "hospital",
+      "name": "KIMS Emergency Trauma Centre",
+      "locality": "Begumpet",
+      "lat": 17.4368,
+      "lng": 78.4835,
+      "capacity": 320,
+      "availableBeds": 62,
+      "contact": "+91 40 4488 5000"
+    },
+    {
+      "id": "fac-7",
+      "type": "waterlogging",
+      "name": "Kukatpally Y-Junction Underpass Waterlogging (1.2m)",
+      "locality": "Kukatpally",
+      "lat": 17.4822,
+      "lng": 78.4148,
+      "severity": "CRITICAL",
+      "reportedAt": "2026-11-13T05:20:20.881Z"
+    },
+    {
+      "id": "fac-8",
+      "type": "waterlogging",
+      "name": "Miyapur X-Roads Low Carriageway Flooding (0.6m)",
+      "locality": "Miyapur",
+      "lat": 17.4951,
+      "lng": 78.3635,
+      "severity": "HIGH",
+      "reportedAt": "2026-11-13T05:20:20.881Z"
+    }
+  ],
+  "rescueTeams": [
+    {
+      "id": "team-1",
+      "name": "NDRF Alpha Boat Unit-04",
+      "unitCode": "DRF-KPHB-04",
+      "locality": "Kukatpally",
+      "lat": 17.4875,
+      "lng": 78.4095,
+      "status": "Dispatched",
+      "assignedIncidentId": "sos-inc-101",
+      "personnelCount": 8,
+      "equipment": "2 Inflatable Rescue Boats, Medical Trauma Kit, Rope Winch",
+      "lastHeartbeat": "2026-11-13T05:20:20.881Z"
+    },
+    {
+      "id": "team-2",
+      "name": "GHMC Rapid Response Team-09",
+      "unitCode": "DRF-MYP-09",
+      "locality": "Miyapur",
+      "lat": 17.4945,
+      "lng": 78.368,
+      "status": "Dispatched",
+      "personnelCount": 6,
+      "equipment": "High-Capacity Dewatering Pump, 4x4 Rescue Truck",
+      "lastHeartbeat": "2026-11-13T05:20:20.881Z",
+      "assignedIncidentId": "sos-inc-88162"
+    },
+    {
+      "id": "team-3",
+      "name": "Telangana SDRF Medical Evacuation-02",
+      "unitCode": "SDRF-MED-02",
+      "locality": "Begumpet",
+      "lat": 17.448,
+      "lng": 78.458,
+      "status": "Available",
+      "personnelCount": 5,
+      "equipment": "Amphibious Ambulance, Oxygen & Defibrillator Unit",
+      "lastHeartbeat": "2026-11-13T05:20:20.881Z"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "sos-inc-88162",
+      "clusterKey": "19.076_72.878",
+      "locality": "Mumbai",
+      "lat": 19.076,
+      "lng": 72.8777,
+      "primaryCategory": "house_flooding",
+      "status": "Rescue Team Assigned",
+      "aiClassification": "Informational",
+      "aiReasoning": "The report is a verification check regarding waterlogging in an area with a minimal flood risk score and indicates no immediate threat to life or severe property flooding.",
+      "assignedTeamId": "team-2",
+      "assignedTeamName": "GHMC Rapid Response Team-09",
+      "reportCount": 2,
+      "reports": [
+        {
+          "id": "rep-1794551696166-hw0m",
+          "idempotencyKey": "test-mumbai-1794551696152",
+          "userId": "guest",
+          "reporterName": "Test Citizen",
+          "reporterMobile": "+91 98200 11111",
+          "category": "house_flooding",
+          "description": "Test verification: water entering ground floor in Dadar",
+          "lat": 19.076,
+          "lng": 72.8777,
+          "locality": "Mumbai",
+          "createdAt": "2026-11-13T06:34:56.166Z",
+          "syncedFromOffline": false
+        },
+        {
+          "id": "rep-1794551677312-4pyl",
+          "idempotencyKey": "verify-mumbai-1794551677141",
+          "userId": "guest",
+          "reporterName": "Verification Citizen",
+          "reporterMobile": "+91 98200 11111",
+          "category": "house_flooding",
+          "description": "Verification check: waterlogging in Dadar West",
+          "lat": 19.076,
+          "lng": 72.8777,
+          "locality": "Mumbai",
+          "createdAt": "2026-11-13T06:34:37.312Z",
+          "syncedFromOffline": false
+        }
+      ],
+      "createdAt": "2026-11-13T06:34:48.162Z",
+      "updatedAt": "2026-11-13T06:35:01.156Z",
+      "acknowledgedAt": "2026-11-13T06:34:48.162Z",
+      "processingInstanceId": "instance-1",
+      "processingLatencyMs": 10851
+    },
+    {
+      "id": "sos-inc-101",
+      "clusterKey": "17.484_78.414",
+      "locality": "Kukatpally",
+      "lat": 17.4842,
+      "lng": 78.4145,
+      "primaryCategory": "people_trapped",
+      "status": "Team on the Way",
+      "aiClassification": "Critical",
+      "aiReasoning": "Multiple citizens including elderly residents trapped on first floor with rapidly rising 1.2m water near Kukatpally Nala.",
+      "assignedTeamId": "team-1",
+      "assignedTeamName": "NDRF Alpha Boat Unit-04",
+      "reportCount": 2,
+      "reports": [
+        {
+          "id": "rep-1",
+          "idempotencyKey": "seed-rep-1",
+          "userId": "usr-citizen-1",
+          "reporterName": "Srinivas Rao",
+          "reporterMobile": "+91 98480 33112",
+          "category": "people_trapped",
+          "description": "Water entered ground floor up to 4 feet at Vivekananda Nagar Lane 3. 2 elderly people on 1st floor need evacuation.",
+          "lat": 17.4842,
+          "lng": 78.4145,
+          "locality": "Kukatpally",
+          "createdAt": "2026-11-13T05:02:20.915Z"
+        },
+        {
+          "id": "rep-2",
+          "idempotencyKey": "seed-rep-2",
+          "userId": "usr-citizen-2",
+          "reporterName": "Lakshmi Devi",
+          "reporterMobile": "+91 98495 22019",
+          "category": "house_flooding",
+          "description": "Adjacent building power cut off, water rising fast near Lane 3.",
+          "lat": 17.4845,
+          "lng": 78.4149,
+          "locality": "Kukatpally",
+          "createdAt": "2026-11-13T05:06:20.915Z"
+        }
+      ],
+      "createdAt": "2026-11-13T05:02:20.915Z",
+      "updatedAt": "2026-11-13T05:16:20.915Z",
+      "acknowledgedAt": "2026-11-13T05:03:20.915Z",
+      "processingInstanceId": "instance-1",
+      "processingLatencyMs": 38
+    },
+    {
+      "id": "sos-inc-102",
+      "clusterKey": "17.496_78.362",
+      "locality": "Miyapur",
+      "lat": 17.4962,
+      "lng": 78.3622,
+      "primaryCategory": "food_water_required",
+      "status": "Under Review",
+      "aiClassification": "Urgent",
+      "aiReasoning": "35 residents sheltered at local school building require clean drinking water and dry food packets.",
+      "reportCount": 1,
+      "reports": [
+        {
+          "id": "rep-3",
+          "idempotencyKey": "seed-rep-3",
+          "userId": "usr-farmer-1",
+          "reporterName": "Ramesh Naik",
+          "reporterMobile": "+91 98491 44556",
+          "category": "food_water_required",
+          "description": "12 families moved to ZPHS school terrace near Miyapur Lake. Need clean drinking water and baby food.",
+          "lat": 17.4962,
+          "lng": 78.3622,
+          "locality": "Miyapur",
+          "createdAt": "2026-11-13T04:48:20.915Z"
+        }
+      ],
+      "createdAt": "2026-11-13T04:48:20.915Z",
+      "updatedAt": "2026-11-13T04:55:20.915Z",
+      "acknowledgedAt": "2026-11-13T04:49:20.915Z",
+      "processingInstanceId": "instance-2",
+      "processingLatencyMs": 42
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "CRITICAL FLOOD WARNING – KUKATPALLY",
+      "message": "GHMC & SDMA Emergency Notice: Heavy rainfall and Kukatpally Nala overflow detected. Avoid Y-Junction underpass. JNTU Relief Camp is open with 168 beds and medical aid.",
+      "locality": "Kukatpally",
+      "severity": "CRITICAL",
+      "publishedBy": "Dr. Kavitha Sharma (SDMA Control)",
+      "publishedAt": "2026-11-13T04:55:20.915Z",
+      "geofencedRecipients": 1420
+    }
+  ],
+  "deliveryLogs": [
+    {
+      "id": "del-1",
+      "alertId": "ann-1",
+      "userId": "usr-citizen-1",
+      "recipientLabel": "Ananya Reddy (citizen@alertnet.in)",
+      "locality": "Kukatpally",
+      "channel": "email",
+      "status": "demo_simulated",
+      "attempts": 1,
+      "messagePreview": "ALERTNET – CRITICAL FLOOD WARNING! Your registered area, Kukatpally, is under critical flood alert.",
+      "workerInstance": "instance-1",
+      "createdAt": "2026-11-13T04:56:20.915Z",
+      "updatedAt": "2026-11-13T04:56:20.915Z"
+    },
+    {
+      "id": "del-2",
+      "alertId": "ann-1",
+      "userId": "usr-citizen-1",
+      "recipientLabel": "+91 98480 11223",
+      "locality": "Kukatpally",
+      "channel": "sms",
+      "status": "demo_simulated",
+      "attempts": 1,
+      "messagePreview": "ALERTNET CRITICAL: Kukatpally flood alert. Move to higher ground. Use SOS in AlertNet app.",
+      "workerInstance": "instance-2",
+      "createdAt": "2026-11-13T04:56:20.915Z",
+      "updatedAt": "2026-11-13T04:56:20.915Z"
+    }
+  ],
+  "chatMessages": [
+    {
+      "id": "msg-1",
+      "roomId": "room-kukatpally",
+      "locality": "Kukatpally",
+      "category": "Road Conditions",
+      "userId": "usr-rescue-1",
+      "senderName": "Capt. Vikram Rao (NDRF Unit-04)",
+      "senderRole": "rescue",
+      "text": "Kukatpally Y-Junction underpass is closed due to 1.2m waterlogging. Please divert via JNTU Metro elevated corridor.",
+      "isAnnouncement": true,
+      "reportedCount": 0,
+      "createdAt": "2026-11-13T04:58:20.915Z"
+    },
+    {
+      "id": "msg-2",
+      "roomId": "room-kukatpally",
+      "locality": "Kukatpally",
+      "category": "Shelter Information",
+      "userId": "usr-citizen-1",
+      "senderName": "Ananya Reddy",
+      "senderRole": "citizen",
+      "text": "JNTU Auditorium Gate 2 is open and distributing hot meals and dry blankets. Power backup is working.",
+      "reportedCount": 0,
+      "createdAt": "2026-11-13T05:08:20.915Z"
+    },
+    {
+      "id": "msg-3",
+      "roomId": "room-miyapur",
+      "locality": "Miyapur",
+      "category": "Emergency Help",
+      "userId": "usr-farmer-1",
+      "senderName": "Ramesh Naik",
+      "senderRole": "farmer",
+      "text": "Spillway flow increasing near Miyapur Lake east bund. Livestock owners please shift cattle toward higher ground near Temple Road.",
+      "reportedCount": 0,
+      "createdAt": "2026-11-13T05:11:20.915Z"
+    },
+    {
+      "id": "msg-4",
+      "roomId": "room-hyderabad",
+      "locality": "Hyderabad Emergency Network",
+      "category": "Food and Medical Help",
+      "userId": "usr-admin-1",
+      "senderName": "Dr. Kavitha Sharma (SDMA Control)",
+      "senderRole": "admin",
+      "text": "Mobile medical vans stationed at Remedy Hospital Kukatpally and Gachibowli Indoor Stadium. Call 1070 or use AlertNet SOS for immediate dispatch.",
+      "isAnnouncement": true,
+      "reportedCount": 0,
+      "createdAt": "2026-11-13T05:15:20.915Z"
+    }
+  ],
+  "pushSubscriptions": []
+}
